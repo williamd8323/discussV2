@@ -2,8 +2,11 @@ function onSignIn(googleUser) {
     console.log('User signed in!');
     var profile = googleUser.getBasicProfile();
     $(".userName").text(profile.getName());
-    $("img").attr("src", profile.getImageUrl());
     $(".email").text(profile.getEmail());
+    $(".g-signin2").click(function(){
+        window.location.href = $link.attr('href="profile.html"');
+    });
+
 }
 
 function onSignOut() {
