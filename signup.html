@@ -7,12 +7,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="shared.css">
+  <meta name="google-signin-client_id" content="466359916295-vov47rctcj3jpgd3c7ov8qdkaoqbc1j8.apps.googleusercontent.com">
 </head>
 <body id="signup">
-    <div class="signs">
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
-    </div>
+    
     <header>
         <img src="banner.png"></img>
     </header>
@@ -32,8 +30,13 @@
     <div id="loginbutton">
         <a href="login.html" class="navLink">Already have an account? Login.</a>
     <div>
+    <div class="signs">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="shared.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 </html>

@@ -25,7 +25,12 @@
     </div>
     <div id="signUpButton">
         <a href="signup.html" class="navLink">Don't have an account? Sign up.</a>
-    <div>
+    </div>
+    <div class="signs">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
+    </div>
+        
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="shared.js"></script>
