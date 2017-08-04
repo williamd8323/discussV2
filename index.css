@@ -5,23 +5,40 @@ header{
 
 .indexDiv{
     display: inline-block;
-    border: 1px solid steelblue;
 }
 
 #randomInfo{
     width: 50%;
-    margin-right:10%;
+    margin-right:5%;
     color: steelblue;
     font-size: 60em;
 }
 
 #enterOptions{
-    width: 30%;
+    width: 40%;
     text-align: center;
 }
 
 button{
     display: block;
     width: 100%;
+    height: 5em;
     margin-bottom: 10%;
+    background: steelblue;
+    color: white;
+    border: 2px solid steelblue;
+    font-size: 2em;
+}
+
+button:hover{
+    transition-duration: .5s;
+    transform: scale(1.2);
+}
+
+#signButton{
+    margin-top: 5%;
+}
+
+body{
+    font-family: 'Saira Condensed', sans-serif;
 }
