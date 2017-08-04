@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    margin-top: -2%;
+}
+
+.indexDiv{
+    display: inline-block;
+    border: 1px solid steelblue;
+}
+
+#randomInfo{
+    width: 50%;
+    margin-right:10%;
+    color: steelblue;
+    font-size: 60em;
+}
+
+#enterOptions{
+    width: 30%;
+    text-align: center;
+}
+
+button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10%;
+}
