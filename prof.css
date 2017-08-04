@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    font-size: 2em;
+}
+
+#headImgDiv{
+    width: 30%;
+    display: inline-block;
+}
+
+.headDiv{
+    display: inline-block;
+}
+
+
+.navLists{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#navDiv{
+    float: right;
+    margin-top: 5%;
+    width: 60%;
+    margin-left: -10%;
+}
+
+#container{
+    margin-left: 9%;
+    margin-right: 5%;
+}
+
+.article{
+    width: 30%;
+    height: auto;
+    border: 1px solid gray;
+    display: inline-block;
+    margin-right: 3%;
+}
+.article:hover{
+    transform: scale(1.6);
+    background: gray;
+    color: white;
+}
+
+.articleImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+.imgDiv{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.divTxt{
+   float: right;
+   width: 40%;
+   font-size: 14px;
+   text-align: center;
+   margin-top:-.5%;
+}
