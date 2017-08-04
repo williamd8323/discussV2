@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="shared.css">
 </head>
 <body id="signup">
@@ -12,15 +13,21 @@
         <img src="banner.png"></img>
     </header>
     <h2>Join Discuss</h2>
-    <div id="name">
-        <input type="text" placeholder="Your Name">
+    <div id="name" >
+        <input type="text" class="signup" placeholder="Your Name">
+    </div>
+    <div id="email">
+        <input type="text" class="signup" placeholder="Your Email">
     </div>
     <div id="password">
-        <input type="password" placeholder="Password">
+        <input type="password" class="singup" placeholder="Password">
     </div>
-    <div id="submit">
-        <input type="submit" value="Sign up">
+    <div >
+        <input id="submit" type="submit" value="Sign up">
     </div>
+    <div id="loginbutton">
+        <a href="login.html" class="navLink">Already have an account? Login.</a>
+    <div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="shared.js"></script>
